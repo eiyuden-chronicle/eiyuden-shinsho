@@ -35,7 +35,7 @@
     "eslint-config-prettier": ">=8.3.0",
     "eslint-plugin-jest": ">=24.4.2",
     "eslint-plugin-prettier": ">=4.0.0",
-    "eslint-plugin-vue": ">=7.17.0",
+    "eslint-plugin-vue": ">=7.18.0",
     "prettier": ">=2.4.1",
     "prettier-eslint": ">=13.0.0",
     "stylelint": ">=13.13.1",
