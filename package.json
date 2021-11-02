@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "buefy": "0.9.11",
-    "core-js": "3.19.0",
+    "core-js": "3.19.1",
     "dayjs": "1.10.7",
     "jquery": "3.6.0",
     "vue": "2.6.14",
