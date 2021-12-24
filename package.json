@@ -1,15 +1,6 @@
 {
   "name": "eiyuden_shinsho",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "serve": "vue-cli-service serve",
-    "test": "jest",
-    "test:unit": "vue-cli-service test:unit",
-    "watch": "vue-cli-service serve"
-  },
   "dependencies": {
     "buefy": "0.9.13",
     "core-js": "3.20.1",
@@ -43,5 +34,17 @@
     "textlint": "12.1.0",
     "vue-eslint-parser": "8.0.1",
     "vue-template-compiler": "2.6.14"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve",
+    "test": "jest",
+    "test:unit": "vue-cli-service test:unit",
+    "watch": "vue-cli-service serve"
   }
 }

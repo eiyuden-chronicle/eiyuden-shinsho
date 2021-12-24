@@ -8,7 +8,7 @@ executors:
     parameters:
       version_tag:
         type: string
-        default: 14.16.1
+        default: 16.13.1
 
 orbs:
   slack: circleci/slack@4.5.1
@@ -18,7 +18,7 @@ jobs:
     executor:
       name: node_executor
       version_tag: << parameters.node-version >>
-      # version_tag: 14.17.1
+      # version_tag: 16.13.1
     environment:
       TZ: 'Asia/Tokyo'
     parameters:
@@ -75,5 +75,4 @@ workflows:
           matrix:
             parameters:
               node-version:
-                - 14.18.0
-                - 16.11.0
+                - 16.13.1
