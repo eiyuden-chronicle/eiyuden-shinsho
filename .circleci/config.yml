@@ -1,25 +1,78 @@
 version: 2.1
+
+executors:
+  node_executor:
+    docker:
+      # https://hub.docker.com/r/cimg/node
+      - image: cimg/node:<< parameters.version_tag >>
+    parameters:
+      version_tag:
+        type: string
+        default: 16.13.1
+
 orbs:
-  node: circleci/node@4.1.0
-  slack: circleci/slack@4.1.4
+  slack: circleci/slack@4.5.1
+
 jobs:
   build-and-test:
     executor:
-      name: node/default
+      name: node_executor
+      version_tag: << parameters.node-version >>
+      # version_tag: 16.13.1
+    environment:
+      TZ: 'Asia/Tokyo'
+    parameters:
+      node-version:
+        type: string
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: yarn
+      - restore_cache:
+          name: Restore Yarn Cache
+          keys:
+            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ .Branch }}-
+            - yarn-packages-v1-
+      - run:
+          name: Artifacts 用のディレクトリを作成する
+          command: |
+            mkdir /tmp/build_job_artifacts
+      - run:
+          name: Node.js と Npm のバージョン等を確認し、Artifacts に格納する
+          command: |
+            which node > /tmp/destination_artifacts
+            node --version > /tmp/build_job_artifacts/node_version.txt
+            which npm > /tmp/build_job_artifacts/which_npm.txt
+            npm --version > /tmp/build_job_artifacts/npm_version.txt
+      - run:
+          name: Install Yarn
+          command: |
+            curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+            echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+            sudo apt-get update -y && sudo apt-get install yarn -y
+      - run:
+          name: $ yarn install を行う
+          command: |
+            yarn install
+      - save_cache:
+          name: Save Yarn Cache
+          paths:
+            - ~/.cache/yarn
+          key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
       # - run:
       #     command: yarn run test
       #     name: Run YARN tests
       # - slack/notify:
-          # channel: channel_id
-          # color: '#42e2f4'
-          # mentions: 'foo,bar,'
-          # message: This is a custom message notification
-          # webhook: '${SLACK_WEBHOOK}'
+      # channel: channel_id
+      # color: '#42e2f4'
+      # mentions: 'foo,bar,'
+      # message: This is a custom message notification
+      # webhook: '${SLACK_WEBHOOK}'
+
 workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+  eiyuden_shinsho:
+    jobs:
+      - build-and-test:
+          matrix:
+            parameters:
+              node-version:
+                - 16.13.1

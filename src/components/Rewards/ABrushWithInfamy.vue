@@ -58,12 +58,8 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                肖像画を作ることができます
-              </li>
-              <li>
-                あなたの肖像画がオールラーン大陸のどこかで登場します
-              </li>
+              <li>肖像画を作ることができます</li>
+              <li>あなたの肖像画がオールラーン大陸のどこかで登場します</li>
             </ul>
             <img
               src="/images/a_brush_with_infamy.png"

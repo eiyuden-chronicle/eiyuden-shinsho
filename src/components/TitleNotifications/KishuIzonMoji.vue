@@ -17,9 +17,7 @@
               <li class="more-margin">
                 機種依存文字とは、PCの種類によって文字化けして読めない文字のこと
               </li>
-              <li class="more-margin">
-                丸数字とローマ数字が代表選手です
-              </li>
+              <li class="more-margin">丸数字とローマ数字が代表選手です</li>
               <li class="more-margin">
                 なので「IV」ではなく、「4」のように数字を用いるのがおすすめです
                 (^o^)/

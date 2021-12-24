@@ -57,9 +57,7 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                「百英雄伝」に登場する「ジョブ」をテーマにしたグッズです
-              </li>
+              <li>「百英雄伝」に登場する「ジョブ」をテーマにしたグッズです</li>
               <li>
                 「ジョブ」ごとにグッズが異なり、その中から希望するグッズを選びます
               </li>
@@ -71,12 +69,8 @@
             <div class="content">
               <h5>「シェフ」のグッズ</h5>
               <ul>
-                <li>
-                  エプロン
-                </li>
-                <li>
-                  電子版のレシピ
-                </li>
+                <li>エプロン</li>
+                <li>電子版のレシピ</li>
               </ul>
               <img
                 src="/images/job_reward_chef.jpg"
@@ -87,12 +81,8 @@
             <div class="content">
               <h5>「画家」のグッズ</h5>
               <ul>
-                <li>
-                  キャラのステッカー
-                </li>
-                <li>
-                  ゲームのポスター
-                </li>
+                <li>キャラのステッカー</li>
+                <li>ゲームのポスター</li>
               </ul>
               <img
                 src="/images/job_reward_painter.jpg"
@@ -103,9 +93,7 @@
             <div class="content">
               <h5>「宝石商」のグッズ</h5>
               <ul>
-                <li>
-                  エナメルのピンパッジ3つ
-                </li>
+                <li>エナメルのピンパッジ3つ</li>
               </ul>
               <img
                 src="/images/job_reward_jeweler_3_chars.png"
@@ -116,12 +104,8 @@
             <div class="content">
               <h5>「脚本家」のグッズ</h5>
               <ul>
-                <li>
-                  2冊の冊子からなるグッズ
-                </li>
-                <li>
-                  1. シナリオが記載された本
-                </li>
+                <li>2冊の冊子からなるグッズ</li>
+                <li>1. シナリオが記載された本</li>
                 <li>
                   2. ゲームやクリエイターについて記載されているパンフレット
                 </li>
@@ -135,12 +119,8 @@
             <div class="content">
               <h5>「鍛冶屋」のグッズ</h5>
               <ul>
-                <li>
-                  ノアの武器のレプリカ
-                </li>
-                <li>
-                  サイズは 1/16
-                </li>
+                <li>ノアの武器のレプリカ</li>
+                <li>サイズは 1/16</li>
               </ul>
               <img
                 src="/images/job_reward_blacksmith.jpg"
@@ -151,12 +131,8 @@
             <div class="content">
               <h5>「農家」のグッズ</h5>
               <ul>
-                <li>
-                  何でも詰め込めるトートバッグ
-                </li>
-                <li>
-                  日々の出来事を記録できる冒険日誌
-                </li>
+                <li>何でも詰め込めるトートバッグ</li>
+                <li>日々の出来事を記録できる冒険日誌</li>
               </ul>
               <img
                 src="/images/job_reward_farmer_2nd_edition.jpg"
@@ -167,9 +143,7 @@
             <div class="content">
               <h5>「芸術家」のグッズ</h5>
               <ul>
-                <li>
-                  「百英雄伝」のメインキャラが描かれたアクリルスタンド
-                </li>
+                <li>「百英雄伝」のメインキャラが描かれたアクリルスタンド</li>
               </ul>
               <img
                 src="/images/job_reward_curator.jpg"

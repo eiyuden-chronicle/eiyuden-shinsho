@@ -2,12 +2,8 @@
   <div>
     <h5>達成額: {{ amount }}万ドル</h5>
     <ul>
-      <li>
-        うふふ
-      </li>
-      <li>
-        あはは
-      </li>
+      <li>うふふ</li>
+      <li>あはは</li>
     </ul>
   </div>
 </template>
