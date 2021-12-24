@@ -53,6 +53,14 @@ jobs:
           name: $ yarn install を行う
           command: |
             yarn install
+      - run:
+          name: $ yarn lint を行う
+          command: |
+            yarn lint
+      - run:
+          name: $ yarn build を行う
+          command: |
+            yarn build
       - save_cache:
           name: Save Yarn Cache
           paths:
