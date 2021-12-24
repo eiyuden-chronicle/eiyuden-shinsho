@@ -35,9 +35,7 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">
-            ペットを登場させられる
-          </p>
+          <p class="modal-card-title">ペットを登場させられる</p>
         </header>
         <section class="modal-card-body has-text-left">
           <p>※ネコ以外</p>

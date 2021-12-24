@@ -58,9 +58,7 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                墓に自分の名前を掘ることができます
-              </li>
+              <li>墓に自分の名前を掘ることができます</li>
             </ul>
             <img
               src="/images/dig_your_own_grave.png"

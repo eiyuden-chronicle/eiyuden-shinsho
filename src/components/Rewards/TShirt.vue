@@ -57,12 +57,8 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                「百英雄伝」のイラストがプリントされた Tシャツ です
-              </li>
-              <li>
-                サイズは後ほどお選び頂けます
-              </li>
+              <li>「百英雄伝」のイラストがプリントされた Tシャツ です</li>
+              <li>サイズは後ほどお選び頂けます</li>
             </ul>
             <img src="/images/t_shirt.jpg" alt="Tシャツ" title="Tシャツ" />
           </div>

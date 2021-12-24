@@ -58,12 +58,8 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                「百英雄伝」のイラストが描かれた缶バッジです
-              </li>
-              <li>
-                7つセットになります（画像はサンプル）
-              </li>
+              <li>「百英雄伝」のイラストが描かれた缶バッジです</li>
+              <li>7つセットになります（画像はサンプル）</li>
             </ul>
             <img
               src="/images/sigil_button.png"

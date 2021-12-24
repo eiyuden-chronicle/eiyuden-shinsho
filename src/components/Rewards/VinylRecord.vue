@@ -57,15 +57,9 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                アナログレコード版のオリジナルサウンドトラックです。
-              </li>
-              <li>
-                2枚組となり、効果音やアレンジも含まれます
-              </li>
-              <li>
-                桜庭統さんやなるけみちこさんの楽曲が収録されています
-              </li>
+              <li>アナログレコード版のオリジナルサウンドトラックです。</li>
+              <li>2枚組となり、効果音やアレンジも含まれます</li>
+              <li>桜庭統さんやなるけみちこさんの楽曲が収録されています</li>
             </ul>
             <img
               src="/images/vinyl_record.jpg"

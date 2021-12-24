@@ -57,9 +57,7 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                素敵なパッケージに梱包されたゲームをお届けします
-              </li>
+              <li>素敵なパッケージに梱包されたゲームをお届けします</li>
               <li>
                 対応プラットフォームは以下の通りです
                 <ul>
@@ -67,9 +65,7 @@
                   <li>PlayStation 5</li>
                   <li>Xbox One</li>
                   <li>Xbox Series X</li>
-                  <li>
-                    次世代 Nintendo ハード（発表が無ければ現行の Switch）
-                  </li>
+                  <li>次世代 Nintendo ハード（発表が無ければ現行の Switch）</li>
                   <li>PC</li>
                 </ul>
               </li>
