@@ -40,15 +40,11 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                開発途中のベータ版をプレイすることができます
-              </li>
+              <li>開発途中のベータ版をプレイすることができます</li>
               <li>
                 戦闘シーンなどを体験できる以外にも、ゲームをより良いものに仕上げるためのフィードバックを送って頂けます
               </li>
-              <li>
-                提供プラットフォームは PC (Steam) のみです
-              </li>
+              <li>提供プラットフォームは PC (Steam) のみです</li>
             </ul>
             <img
               src="/images/beta_access.jpg"

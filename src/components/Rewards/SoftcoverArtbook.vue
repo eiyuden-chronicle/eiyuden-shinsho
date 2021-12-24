@@ -57,15 +57,9 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                紙の書籍版のアートブックです
-              </li>
-              <li>
-                ページ数は 108 ページです
-              </li>
-              <li>
-                ハードカバーになります
-              </li>
+              <li>紙の書籍版のアートブックです</li>
+              <li>ページ数は 108 ページです</li>
+              <li>ハードカバーになります</li>
             </ul>
             <img
               src="/images/softcover_artbook.jpg"

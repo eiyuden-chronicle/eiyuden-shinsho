@@ -108,9 +108,8 @@ export default {
     allPledges: function () {
       return [
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalVersion'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigitalVersion'],
           isAvailable: true,
           pledgeName: {
             english: 'Digital Version',
@@ -136,9 +135,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isPhysicalVersion'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isPhysicalVersion'],
           isAvailable: true,
           pledgeName: {
             english: 'Physical Version',
@@ -164,9 +162,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDoubleDigitalPack'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDoubleDigitalPack'],
           isAvailable: true,
           pledgeName: {
             english: 'Double Digital Pack',
@@ -192,9 +189,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDoublePhysicalPack'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDoublePhysicalPack'],
           isAvailable: true,
           pledgeName: {
             english: 'Double Physical Pack',
@@ -220,9 +216,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalAndPhysical'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigitalAndPhysical'],
           isAvailable: true,
           pledgeName: {
             english: 'Digital & Physical',
@@ -250,9 +245,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isBadgeOfHonor'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isBadgeOfHonor'],
           isAvailable: true,
           pledgeName: {
             english: 'Badge of Honor',
@@ -279,9 +273,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isMarkOfTheBard'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isMarkOfTheBard'],
           isAvailable: true,
           pledgeName: {
             english: 'Mark of the Bard',
@@ -309,9 +302,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isOrderOfTheVermillion'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isOrderOfTheVermillion'],
           isAvailable: true,
           pledgeName: {
             english: 'Order of the Vermillion',
@@ -340,9 +332,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isOrderOfTheHarmonious'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isOrderOfTheHarmonious'],
           isAvailable: true,
           pledgeName: {
             english: 'Order of the Harmonious',
@@ -371,9 +362,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isOrderOfTheArchivists'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isOrderOfTheArchivists'],
           isAvailable: true,
           pledgeName: {
             english: 'Order of the Archivists',
@@ -402,9 +392,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityOfOrders'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinityOfOrders'],
           isAvailable: true,
           pledgeName: {
             english: 'Trinity of Orders',
@@ -435,9 +424,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionSquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isVermillionSquire'],
           isAvailable: false,
           pledgeName: {
             english: 'Vermillion Squire',
@@ -463,9 +451,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionSquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isVermillionSquire'],
           isAvailable: true,
           pledgeName: {
             english: 'Vermilion Squire Re-redux',
@@ -495,9 +482,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousSquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isHarmoniousSquire'],
           isAvailable: false,
           pledgeName: {
             english: 'Harmonious Squire',
@@ -523,9 +509,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousSquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isHarmoniousSquire'],
           isAvailable: true,
           pledgeName: {
             english: 'Harmonious Squire Redux',
@@ -555,9 +540,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistSquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isArchivistSquire'],
           isAvailable: false,
           pledgeName: {
             english: 'Archivist Squire',
@@ -583,9 +567,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistSquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isArchivistSquire'],
           isAvailable: true,
           pledgeName: {
             english: 'Archivist Squire Returns',
@@ -615,9 +598,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinitySquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinitySquire'],
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Squire',
@@ -643,9 +625,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinitySquire'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinitySquire'],
           isAvailable: true,
           pledgeName: {
             english: 'Trinity Squire Re-redux',
@@ -677,9 +658,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isVermillionKnight'],
           isAvailable: false,
           pledgeName: {
             english: 'Vermillion Knight',
@@ -705,9 +685,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isVermillionKnight'],
           isAvailable: true,
           pledgeName: {
             english: 'Vermillion Knight Redux',
@@ -737,9 +716,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isHarmoniousKnight'],
           isAvailable: true,
           pledgeName: {
             english: 'Harmonious Knight',
@@ -769,9 +747,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isArchivistKnight'],
           isAvailable: false,
           pledgeName: {
             english: 'Archivist Knight',
@@ -797,9 +774,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isArchivistKnight'],
           isAvailable: true,
           pledgeName: {
             english: 'Archivist Knight Re-redux',
@@ -829,9 +805,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinityKnight'],
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Knight',
@@ -857,9 +832,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityKnight'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinityKnight'],
           isAvailable: true,
           pledgeName: {
             english: 'Trinity Knight Redux',
@@ -891,9 +865,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isVermillionNoble'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isVermillionNoble'],
           isAvailable: true,
           pledgeName: {
             english: 'Vermillion Noble',
@@ -923,9 +896,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHarmoniousNoble'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isHarmoniousNoble'],
           isAvailable: true,
           pledgeName: {
             english: 'Harmonious Noble',
@@ -955,9 +927,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistNoble'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isArchivistNoble'],
           isAvailable: false,
           pledgeName: {
             english: 'Archivist Noble',
@@ -987,9 +958,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isArchivistNoble'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isArchivistNoble'],
           isAvailable: true,
           pledgeName: {
             english: 'Archivist Noble Redux',
@@ -1019,9 +989,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityNoble'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinityNoble'],
           isAvailable: false,
           pledgeName: {
             english: 'Trinity Noble',
@@ -1047,9 +1016,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTrinityNoble'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTrinityNoble'],
           isAvailable: true,
           pledgeName: {
             english: 'Trinity Noble Redux',
@@ -1081,9 +1049,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isNameOfTheSteadfast'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isNameOfTheSteadfast'],
           isAvailable: true,
           pledgeName: {
             english: 'Name of the Steadfast',
@@ -1115,9 +1082,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isIndelibleHand'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isIndelibleHand'],
           isAvailable: true,
           pledgeName: {
             english: 'Indelible Hand',
@@ -1150,9 +1116,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isEnduringRequiem'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isEnduringRequiem'],
           isAvailable: false,
           pledgeName: {
             english: 'Enduring Requiem',
@@ -1185,9 +1150,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isEnduringRequiem'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isEnduringRequiem'],
           isAvailable: true,
           pledgeName: {
             english: 'Enduring Requiem Redux',
@@ -1220,9 +1184,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isCatTribution'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isCatTribution'],
           isAvailable: false,
           pledgeName: {
             english: 'Cat-tribution',
@@ -1307,9 +1270,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isFellowWorldbuilder'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isFellowWorldbuilder'],
           isAvailable: false,
           pledgeName: {
             english: 'Fellow Worldbuilder',
@@ -1335,9 +1297,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isEvilsAnvil'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isEvilsAnvil'],
           isAvailable: false,
           pledgeName: {
             english: "Evil's Anvil",
@@ -1389,9 +1350,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGuildmaster'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGuildmaster'],
           isAvailable: true,
           pledgeName: {
             english: 'Guildmaster',
@@ -1424,9 +1384,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isReveredGuildmaster'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isReveredGuildmaster'],
           isAvailable: true,
           pledgeName: {
             english: 'Revered Guildmaster',
@@ -1460,9 +1419,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isAllraansPantheron'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isAllraansPantheron'],
           isAvailable: true,
           pledgeName: {
             english: "Allraan's Pantheon",
@@ -1549,9 +1507,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isSilverMonument'],
           isAvailable: false,
           pledgeName: {
             english: 'Silver Monument',
@@ -1577,9 +1534,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isSilverMonument'],
           isAvailable: false,
           pledgeName: {
             english: 'Silver Monument Redux',
@@ -1606,9 +1562,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isSilverMonument'],
           isAvailable: false,
           pledgeName: {
             english: 'Silver Monument Re-redux',
@@ -1635,9 +1590,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isSilverMonument'],
           isAvailable: true,
           pledgeName: {
             english: 'Silver Monument Returns',
@@ -1664,9 +1618,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenMonument'],
           isAvailable: false,
           pledgeName: {
             english: 'Golden Monument',
@@ -1692,9 +1645,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenMonument'],
           isAvailable: true,
           pledgeName: {
             english: 'Golden Monument Re-redux',
@@ -1721,9 +1673,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenMonument'],
           isAvailable: false,
           pledgeName: {
             english: 'Golden Monument Returns',
@@ -1750,9 +1701,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenMonument'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenMonument'],
           isAvailable: true,
           pledgeName: {
             english: 'Golden Monument Final',
@@ -1779,9 +1729,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isPieceOfHistory'],
           isAvailable: false,
           pledgeName: {
             english: 'Piece of History',
@@ -1807,9 +1756,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isPieceOfHistory'],
           isAvailable: true,
           pledgeName: {
             english: 'Piece of History Re-redux',
@@ -1837,9 +1785,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isPieceOfHistory'],
           isAvailable: true,
           pledgeName: {
             english: 'Piece of History Returns',
@@ -1867,9 +1814,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isSilverPieceOfHistory'],
           isAvailable: false,
           pledgeName: {
             english: 'Silver Piece of History',
@@ -1895,9 +1841,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isSilverPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isSilverPieceOfHistory'],
           isAvailable: true,
           pledgeName: {
             english: 'Silver Piece of History Re-redux',
@@ -1925,9 +1870,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenPieceOfHistory'],
           isAvailable: false,
           pledgeName: {
             english: 'Golden Piece of History',
@@ -1953,9 +1897,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenPieceOfHistory'],
           isAvailable: false,
           pledgeName: {
             english: 'Golden Piece of History Re-redux',
@@ -1983,9 +1926,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isGoldenPieceOfHistory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isGoldenPieceOfHistory'],
           isAvailable: true,
           pledgeName: {
             english: 'Golden Piece of History Returns',
@@ -2013,9 +1955,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalCopyAndDigitalCd'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigitalCopyAndDigitalCd'],
           isAvailable: true,
           pledgeName: {
             english: 'Digital and Digital OST',
@@ -2042,9 +1983,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalCopyAndDigitalArtbook'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigitalCopyAndDigitalArtbook'],
           isAvailable: true,
           pledgeName: {
             english: 'Digital & Digital Artbook',
@@ -2071,9 +2011,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigitalDeluxe'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigitalDeluxe'],
           isAvailable: true,
           pledgeName: {
             english: 'Digital Deluxe',
@@ -2101,9 +2040,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isFoodForThought'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isFoodForThought'],
           isAvailable: false,
           pledgeName: {
             english: 'Food for Thought',
@@ -2136,9 +2074,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isFoodForThought'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isFoodForThought'],
           isAvailable: true,
           pledgeName: {
             english: 'Food for Thought Redux',
@@ -2171,9 +2108,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTopTrainer'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTopTrainer'],
           isAvailable: true,
           pledgeName: {
             english: 'Top Trainer',
@@ -2206,9 +2142,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isTopTrainer'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isTopTrainer'],
           isAvailable: true,
           pledgeName: {
             english: 'Top Trainer Redux',
@@ -2241,9 +2176,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isEsteemedDecorator'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isEsteemedDecorator'],
           isAvailable: true,
           pledgeName: {
             english: 'Esteemed Decorator Redux',
@@ -2276,9 +2210,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isHatchItJob'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isHatchItJob'],
           isAvailable: true,
           pledgeName: {
             english: 'Hatch-It Job',
@@ -2311,9 +2244,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigYourOwnGrave'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigYourOwnGrave'],
           isAvailable: false,
           pledgeName: {
             english: 'Dig Your Own Grave',
@@ -2346,9 +2278,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isDigYourOwnGrave'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isDigYourOwnGrave'],
           isAvailable: true,
           pledgeName: {
             english: 'Dig Your Own Grave Redux',
@@ -2381,9 +2312,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isABrushWithInfamy'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isABrushWithInfamy'],
           isAvailable: true,
           pledgeName: {
             english: 'A Brush With Infamy',
@@ -2416,9 +2346,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isABrushWithInfamy'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isABrushWithInfamy'],
           isAvailable: true,
           pledgeName: {
             english: 'A Brush With Infamy Redux',
@@ -2451,9 +2380,8 @@ export default {
           },
         },
         {
-          isMatchedWithUserSelection: this.$store.getters[
-            'pledges/isFishmentStory'
-          ],
+          isMatchedWithUserSelection:
+            this.$store.getters['pledges/isFishmentStory'],
           isAvailable: true,
           pledgeName: {
             english: 'Fishment Story Redux',

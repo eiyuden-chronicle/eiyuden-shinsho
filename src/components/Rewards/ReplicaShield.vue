@@ -57,15 +57,9 @@
         <section class="modal-card-body has-text-left">
           <div class="content">
             <ul>
-              <li>
-                「百英雄伝」の世界観を忠実に模した「盾」です
-              </li>
-              <li>
-                コスプレに用いるもよし、部屋に飾るのもよし
-              </li>
-              <li>
-                レジン製ですので、ご自身の身を守るためには不十分です
-              </li>
+              <li>「百英雄伝」の世界観を忠実に模した「盾」です</li>
+              <li>コスプレに用いるもよし、部屋に飾るのもよし</li>
+              <li>レジン製ですので、ご自身の身を守るためには不十分です</li>
             </ul>
             <img
               src="/images/replica_shield.png"
