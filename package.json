@@ -4,7 +4,7 @@
   "dependencies": {
     "buefy": "0.9.20",
     "core-js": "3.22.4",
-    "dayjs": "1.11.1",
+    "dayjs": "1.11.2",
     "jquery": "3.6.0",
     "vue": "3.2.33",
     "vue-router": "4.0.15",
