@@ -31,7 +31,7 @@
     "prettier-eslint": "15.0.1",
     "stylelint": "14.9.1",
     "stylelint-config-standard": "26.0.0",
-    "textlint": "12.1.1",
+    "textlint": "12.2.0",
     "vue-eslint-parser": "9.0.3",
     "vue-template-compiler": "2.6.14"
   },
