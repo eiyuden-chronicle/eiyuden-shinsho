@@ -1,23 +1,54 @@
-on: [push]
-name: Eiyuden Chronicle Rewards
-jobs:
-  eiyuden_chronicle_rewards_github_actions:
-    name: Eiyuden Chronicle Rewards CI
-    runs-on: ubuntu-latest
+name: 百英雄伝攻略真書
 
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+jobs:
+  eiyuden_chronicle_rewards:
+    name: 百英雄伝攻略真書
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x]
-
+        node-version: ['16.13.1']
+        # node-version: ['16.x', '18.x']
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: $ yarn install
-      run: yarn install
-    - name: $ yarn lint
-      run: yarn lint
-    - name: $ yarn build
-      run: yarn build
+      - name: コードをチェックアウトする
+        uses: actions/checkout@v3
+      - name: Node.js のセットアップを行う
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: yarn
+          cache-dependency-path: yarn.lock
+      - name: $ yarn install する
+        run: yarn install
+      - name: $ yarn lint する
+        run: yarn lint
+      - name: $ yarn build が通るかチェックする
+        run: yarn build
+      - name: OCR をするために必要なパッケージをインストールする
+        run: |
+          sudo apt install -y tesseract-ocr libtesseract-dev tesseract-ocr-jpn fonts-migmix
+          mkdir -p ./output
+      - name: Webブラウザで JavaScript が解釈されて期待どおりに表示されているかを簡易チェックする
+        run: |
+          php -t dist/ -S localhost:8080 &
+          # Webサーバ が起きるまで待つ
+          until : > /dev/tcp/localhost/8080; do sleep 1; done
+
+          npx capture-website http://localhost:8080 --output=output/screenshot.png
+          tesseract output/screenshot.png output/screenshot_ocr -l jpn txt
+
+          # 文字列が存在しない場合はエラーを返すので CI が落ちる
+          grep -q "クラウドファンディング" output/screenshot_ocr.txt
+      - name: capture-website-cli で撮影したスクショと OCR のテキストファイル を Artifacts に保存する
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: capture-website
+          path: output
