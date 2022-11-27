@@ -6,7 +6,7 @@
     "core-js": "3.20.1",
     "dayjs": "1.10.7",
     "jquery": "3.6.0",
-    "vue": "2.6.14",
+    "vue": "2.7.14",
     "vue-router": "3.5.3",
     "vue-scrollto": "2.20.0",
     "vuex": "3.6.2",
@@ -33,7 +33,7 @@
     "stylelint-config-standard": "24.0.0",
     "textlint": "12.1.0",
     "vue-eslint-parser": "8.0.1",
-    "vue-template-compiler": "2.6.14"
+    "vue-template-compiler": "2.7.14"
   },
   "engines": {
     "node": "16.x"
