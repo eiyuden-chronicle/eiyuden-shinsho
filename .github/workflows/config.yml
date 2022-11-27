@@ -34,21 +34,21 @@ jobs:
       - name: OCR をするために必要なパッケージをインストールする
         run: |
           sudo apt install -y tesseract-ocr libtesseract-dev tesseract-ocr-jpn fonts-migmix
-          mkdir -p ./screenshots
+          mkdir -p ./output
       - name: Webブラウザで JavaScript が解釈されて期待どおりに表示されているかを簡易チェックする
         run: |
           php -t dist/ -S localhost:8080 &
           # Webサーバ が起きるまで待つ
           until : > /dev/tcp/localhost/8080; do sleep 1; done
 
-          npx capture-website http://localhost:8080 --output=screenshots/screenshot.png
-          tesseract screenshots/screenshot.png screenshot_ocr -l jpn txt
+          npx capture-website http://localhost:8080 --output=output/screenshot.png
+          tesseract output/screenshot.png output/screenshot_ocr -l jpn txt
 
           # 文字列が存在しない場合はエラーを返すので CI が落ちる
-          grep -q "クラウドファンディング" screenshot_ocr.txt
-      - name: capture-website-cli で撮影したスクショを Artifacts に保存する
+          grep -q "クラウドファンディング" output/screenshot_ocr.txt
+      - name: capture-website-cli で撮影したスクショと OCR のテキストファイル を Artifacts に保存する
         uses: actions/upload-artifact@v3
         if: always()
         with:
           name: capture-website
-          path: screenshots
+          path: output
