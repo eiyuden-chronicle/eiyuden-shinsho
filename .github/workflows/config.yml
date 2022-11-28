@@ -60,8 +60,8 @@ jobs:
           echo '[LOG] grep -q "パッケージ版ゲーム" ./output/screenshot_ocr_rewards-gyakuhiki.txt'
           grep -q "パッケージ版ゲーム" ./output/screenshot_ocr_rewards-gyakuhiki.txt
 
-          echo '[LOG] grep -q "該当プレッジ一覧へ" ./output/screenshot_ocr_rewards-gyakuhiki.txt'
-          grep -q "該当プレッジ一覧へ" ./output/screenshot_ocr_rewards-gyakuhiki.txt
+          echo '[LOG] grep -q "ネコを登場させられる" ./output/screenshot_ocr_rewards-gyakuhiki.txt'
+          grep -q "ネコを登場させられる" ./output/screenshot_ocr_rewards-gyakuhiki.txt
       - name: capture-website-cli で撮影したスクショと OCR のテキストファイル を Artifacts に保存する
         uses: actions/upload-artifact@v3
         if: always()
