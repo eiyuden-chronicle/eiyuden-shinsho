@@ -5,7 +5,7 @@
     "buefy": "0.9.23",
     "core-js": "3.30.2",
     "dayjs": "1.11.7",
-    "jquery": "3.6.4",
+    "jquery": "3.7.0",
     "vue": "2.7.14",
     "vue-router": "3.6.5",
     "vue-scrollto": "2.20.0",
