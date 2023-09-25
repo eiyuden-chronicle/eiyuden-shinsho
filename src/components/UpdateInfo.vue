@@ -5,7 +5,7 @@
         <div class="column is-12-mobile is-12-tablet is-12-desktop">
           <div class="content">
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
-            <span class="has-text-weight-bold">[2020/09/04]</span><br /><span
+            <span class="has-text-weight-bold">[2023/09/23]</span><br /><span
               >「<a
                 href="https://jbbs.shitaraba.net/game/61322/"
                 target="_blank"
