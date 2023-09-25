@@ -53,10 +53,10 @@
 
           <p>
             <a
-              href="https://9204.teacup.com/eiyuden_shinsho/bbs"
+              href="https://jbbs.shitaraba.net/game/61322/"
               target="_blank"
               class="camouflage-link"
-              >掲示板</a
+              >百英雄伝BBS</a
             >・同盟・ウェブリングは準備中です m(_ _)m
           </p>
 

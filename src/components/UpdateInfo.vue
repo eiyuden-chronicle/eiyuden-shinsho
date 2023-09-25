@@ -7,9 +7,9 @@
             <h1 class="has-text-weight-bold is-size-5">更新履歴</h1>
             <span class="has-text-weight-bold">[2020/09/04]</span><br /><span
               >「<a
-                href="https://9204.teacup.com/eiyuden_shinsho/bbs"
+                href="https://jbbs.shitaraba.net/game/61322/"
                 target="_blank"
-                >掲示板</a
+                >百英雄伝BBS</a
               >」をオープンしました！！</span
             >
             <br />
