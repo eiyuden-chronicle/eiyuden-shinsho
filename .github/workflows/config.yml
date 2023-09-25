@@ -12,17 +12,13 @@ jobs:
   eiyuden_chronicle_rewards:
     name: 百英雄伝攻略真書
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: ['16.18.1']
-        # node-version: ['16.x', '18.x']
     steps:
       - name: コードをチェックアウトする
         uses: actions/checkout@v4
       - name: Node.js のセットアップを行う
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version-file: '.node-version'
           cache: yarn
           cache-dependency-path: yarn.lock
       - name: $ yarn install する
