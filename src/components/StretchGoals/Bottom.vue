@@ -54,7 +54,7 @@
 
           <p>
             <a
-              href="https://9204.teacup.com/eiyuden_shinsho/bbs"
+              href="https://jbbs.shitaraba.net/game/61322/"
               target="_blank"
               class="camouflage-link"
               >掲示板</a
