@@ -2,7 +2,7 @@
   "name": "eiyuden_shinsho",
   "version": "0.1.0",
   "dependencies": {
-    "buefy": "0.9.27",
+    "buefy": "0.9.28",
     "core-js": "3.35.1",
     "dayjs": "1.11.10",
     "jquery": "3.7.1",
