@@ -11,7 +11,7 @@ on:
 jobs:
   eiyuden_chronicle_rewards:
     name: 百英雄伝攻略真書
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: コードをチェックアウトする
         uses: actions/checkout@v4
