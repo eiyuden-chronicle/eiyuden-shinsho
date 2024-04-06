@@ -23,7 +23,7 @@
     "@vue/test-utils": "2.4.5",
     "babel-eslint": "10.1.0",
     "capture-website-cli": "^3.0.0",
-    "eslint": "6.8.0",
+    "eslint": "9.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jest": "27.9.0",
     "eslint-plugin-prettier": "3.4.1",
