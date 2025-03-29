@@ -13,6 +13,7 @@
     "vuex-persistedstate": "4.1.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@vue/cli-plugin-babel": "4.5.19",
     "@vue/cli-plugin-eslint": "4.5.19",
     "@vue/cli-plugin-router": "4.5.19",
