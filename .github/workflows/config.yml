@@ -15,18 +15,22 @@ jobs:
     steps:
       - name: コードをチェックアウトする
         uses: actions/checkout@v4
+      - name: pnpm のセットアップを行う
+        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
+        with:
+          version: 10.7.0
       - name: Node.js のセットアップを行う
         uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
-          cache: yarn
-          cache-dependency-path: yarn.lock
-      - name: $ yarn install する
-        run: yarn install
-      - name: $ yarn lint する
-        run: yarn lint
-      - name: $ yarn build が通るかチェックする
-        run: yarn build
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+      - name: $ pnpm install する
+        run: pnpm install
+      - name: $ pnpm lint する
+        run: pnpm lint
+      - name: $ pnpm build が通るかチェックする
+        run: pnpm build
       - name: OCR をするために必要なパッケージをインストールする
         run: |
           sudo apt install -y tesseract-ocr libtesseract-dev tesseract-ocr-jpn fonts-migmix
