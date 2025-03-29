@@ -35,6 +35,10 @@ jobs:
         run: |
           sudo apt install -y tesseract-ocr libtesseract-dev tesseract-ocr-jpn fonts-migmix
           mkdir -p ./output
+      # https://github.com/sindresorhus/capture-website-cli
+      - name: capture-website-cli をインストールする
+        run: |
+          npm install -g capture-website-cli
       - name: Webブラウザでの表示をチェックする（スクショ ＆ OCR結果 の取得）
         run: |
           php -t dist/ -S localhost:8080 &
@@ -48,7 +52,7 @@ jobs:
 
           for CHECK_URI in "${CHECK_URIS[@]}"; do
             echo "[LOG] CHECK_URI: ${CHECK_URI}"
-            npx capture-website --full-page http://localhost:8080/${CHECK_URI} --output=./output/screenshot_${CHECK_URI}.png
+            capture-website --full-page http://localhost:8080/${CHECK_URI} --output=./output/screenshot_${CHECK_URI}.png
             tesseract ./output/screenshot_${CHECK_URI}.png ./output/screenshot_ocr_${CHECK_URI} -l jpn txt
           done
       - name: Webブラウザでの表示をチェックする（チェックスクリプト実行）
