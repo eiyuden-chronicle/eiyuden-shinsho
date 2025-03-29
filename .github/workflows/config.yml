@@ -52,7 +52,7 @@ jobs:
 
           for CHECK_URI in "${CHECK_URIS[@]}"; do
             echo "[LOG] CHECK_URI: ${CHECK_URI}"
-            capture-website --full-page http://localhost:8080/${CHECK_URI} --output=./output/screenshot_${CHECK_URI}.png
+            capture-website --full-page http://localhost:8080/${CHECK_URI} --output=./output/screenshot_${CHECK_URI}.png --launch-options='{"headless": "new", "args": ["--no-sandbox", "--disable-setuid-sandbox"]}'
             tesseract ./output/screenshot_${CHECK_URI}.png ./output/screenshot_ocr_${CHECK_URI} -l jpn txt
           done
       - name: Webブラウザでの表示をチェックする（チェックスクリプト実行）
