@@ -58,8 +58,8 @@ importers:
         specifier: 4.5.19
         version: 4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(prettier@2.8.8)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16)
       '@vue/eslint-config-prettier':
-        specifier: 9.0.0
-        version: 9.0.0(eslint@6.8.0)(prettier@2.8.8)
+        specifier: 10.2.0
+        version: 10.2.0(eslint@6.8.0)(prettier@2.8.8)
       '@vue/test-utils':
         specifier: 2.4.6
         version: 2.4.6
@@ -1326,10 +1326,10 @@ packages:
   '@vue/component-compiler-utils@3.3.0':
     resolution: {integrity: sha512-97sfH2mYNU+2PzGrmK2haqffDpVASuib9/w2/noxiFi31Z54hW+q3izKQXXQZSNhtiUpAI36uSuYepeBe4wpHQ==}
 
-  '@vue/eslint-config-prettier@9.0.0':
-    resolution: {integrity: sha512-z1ZIAAUS9pKzo/ANEfd2sO+v2IUalz7cM/cTLOZ7vRFOPk5/xuRKQteOu1DErFLAh/lYGXMVZ0IfYKlyInuDVg==}
+  '@vue/eslint-config-prettier@10.2.0':
+    resolution: {integrity: sha512-GL3YBLwv/+b86yHcNNfPJxOTtVFJ4Mbc9UU3zR+KVoG7SwGTjPT+32fXamscNumElhcpXW3mT0DgzS9w32S7Bw==}
     peerDependencies:
-      eslint: '>= 8.0.0'
+      eslint: '>= 8.21.0'
       prettier: '>= 3.0.0'
 
   '@vue/preload-webpack-plugin@1.1.2':
@@ -2983,12 +2983,6 @@ packages:
 
   eslint-config-prettier@10.1.1:
     resolution: {integrity: sha512-4EQQr6wXwS+ZJSzaR5ZCrYgLxqvUjdXctaEtBqHcbkW944B1NQyO4qpdHQbXBONfwxXdkAY81HH4+LUfrg+zPw==}
-    hasBin: true
-    peerDependencies:
-      eslint: '>=7.0.0'
-
-  eslint-config-prettier@9.1.0:
-    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -8274,9 +8268,7 @@ snapshots:
       source-map: 0.6.1
       string-length: 2.0.0
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
-      - utf-8-validate
 
   '@jest/schemas@29.6.3':
     dependencies:
@@ -9212,11 +9204,11 @@ snapshots:
       - walrus
       - whiskers
 
-  '@vue/eslint-config-prettier@9.0.0(eslint@6.8.0)(prettier@2.8.8)':
+  '@vue/eslint-config-prettier@10.2.0(eslint@6.8.0)(prettier@2.8.8)':
     dependencies:
       eslint: 6.8.0
-      eslint-config-prettier: 9.1.0(eslint@6.8.0)
-      eslint-plugin-prettier: 5.2.5(eslint-config-prettier@9.1.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
+      eslint-config-prettier: 10.1.1(eslint@6.8.0)
+      eslint-plugin-prettier: 5.2.5(eslint-config-prettier@10.1.1(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
       prettier: 2.8.8
     transitivePeerDependencies:
       - '@types/eslint'
@@ -11027,10 +11019,6 @@ snapshots:
     dependencies:
       eslint: 6.8.0
 
-  eslint-config-prettier@9.1.0(eslint@6.8.0):
-    dependencies:
-      eslint: 6.8.0
-
   eslint-loader@2.2.1(eslint@6.8.0)(webpack@4.47.0):
     dependencies:
       eslint: 6.8.0
@@ -11059,14 +11047,14 @@ snapshots:
     optionalDependencies:
       eslint-config-prettier: 10.1.1(eslint@6.8.0)
 
-  eslint-plugin-prettier@5.2.5(eslint-config-prettier@9.1.0(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8):
+  eslint-plugin-prettier@5.2.5(eslint-config-prettier@10.1.1(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8):
     dependencies:
       eslint: 6.8.0
       prettier: 2.8.8
       prettier-linter-helpers: 1.0.0
       synckit: 0.10.3
     optionalDependencies:
-      eslint-config-prettier: 9.1.0(eslint@6.8.0)
+      eslint-config-prettier: 10.1.1(eslint@6.8.0)
 
   eslint-plugin-vue@8.7.1(eslint@6.8.0):
     dependencies:
@@ -12589,9 +12577,7 @@ snapshots:
       pretty-format: 24.9.0
       throat: 4.1.0
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
-      - utf-8-validate
 
   jest-leak-detector@24.9.0:
     dependencies:
