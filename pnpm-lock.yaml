@@ -73,8 +73,8 @@ importers:
         specifier: 10.1.1
         version: 10.1.1(eslint@6.8.0)
       eslint-plugin-jest:
-        specifier: 28.4.0
-        version: 28.4.0(eslint@6.8.0)(jest@24.9.0)(typescript@5.8.2)
+        specifier: 28.11.0
+        version: 28.11.0(eslint@6.8.0)(jest@24.9.0)(typescript@5.8.2)
       eslint-plugin-prettier:
         specifier: 3.4.1
         version: 3.4.1(eslint-config-prettier@10.1.1(eslint@6.8.0))(eslint@6.8.0)(prettier@2.8.8)
@@ -2944,11 +2944,11 @@ packages:
       eslint: '>=1.6.0 <7.0.0'
       webpack: '>=2.0.0 <5.0.0'
 
-  eslint-plugin-jest@28.4.0:
-    resolution: {integrity: sha512-ORVHiFPC8RQxHLyQJ37MxNilK9k+cPzjHz65T8gAbpYZunGutXvKqwfM3WXBCvFDF1QBeYJJu9LB/i5cuXBs+g==}
+  eslint-plugin-jest@28.11.0:
+    resolution: {integrity: sha512-QAfipLcNCWLVocVbZW8GimKn5p5iiMcgGbRzz8z/P5q7xw+cNEpYqyzFMtIF/ZgF2HLOyy+dYBut+DoYolvqig==}
     engines: {node: ^16.10.0 || ^18.12.0 || >=20.0.0}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^6.0.0 || ^7.0.0
+      '@typescript-eslint/eslint-plugin': ^6.0.0 || ^7.0.0 || ^8.0.0
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
       jest: '*'
     peerDependenciesMeta:
@@ -10930,7 +10930,7 @@ snapshots:
       rimraf: 2.7.1
       webpack: 4.47.0
 
-  eslint-plugin-jest@28.4.0(eslint@6.8.0)(jest@24.9.0)(typescript@5.8.2):
+  eslint-plugin-jest@28.11.0(eslint@6.8.0)(jest@24.9.0)(typescript@5.8.2):
     dependencies:
       '@typescript-eslint/utils': 6.21.0(eslint@6.8.0)(typescript@5.8.2)
       eslint: 6.8.0
@@ -11261,7 +11261,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.4.0(supports-color@6.1.0)
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -12465,9 +12465,7 @@ snapshots:
       pretty-format: 24.9.0
       throat: 4.1.0
     transitivePeerDependencies:
-      - bufferutil
       - supports-color
-      - utf-8-validate
 
   jest-leak-detector@24.9.0:
     dependencies:
