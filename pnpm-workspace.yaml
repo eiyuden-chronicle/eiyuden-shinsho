@@ -5,4 +5,5 @@ ignoredBuiltDependencies:
   - fsevents
   - yorkie
 onlyBuiltDependencies:
+  - '@biomejs/biome'
   - puppeteer
