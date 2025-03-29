@@ -1,0 +1,8 @@
+ignoredBuiltDependencies:
+  - core-js
+  - deasync
+  - ejs
+  - fsevents
+  - yorkie
+onlyBuiltDependencies:
+  - puppeteer
