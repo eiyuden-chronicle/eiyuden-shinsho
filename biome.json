@@ -25,7 +25,16 @@
       "node_modules/**/*"
     ],
     "ignoreUnknown": false,
-    "include": [],
+    "include": [
+      "**/*.vue",
+      "**/*.js",
+      "**/*.ts",
+      "**/*.jsx",
+      "**/*.tsx",
+      "**/*.json",
+      "**/*.css",
+      "**/*.scss"
+    ],
     "maxSize": 1048576
   },
   "formatter": {
@@ -34,7 +43,6 @@
     "enabled": true,
     "formatWithErrors": false,
     "ignore": [],
-    "include": [],
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
@@ -87,7 +95,6 @@
   "linter": {
     "enabled": true,
     "ignore": [],
-    "include": [],
     "rules": {
       "complexity": {
         "noExtraBooleanCast": "error",
@@ -154,8 +161,7 @@
   },
   "organizeImports": {
     "enabled": true,
-    "ignore": [],
-    "include": []
+    "ignore": []
   },
   "overrides": [],
   "vcs": {
