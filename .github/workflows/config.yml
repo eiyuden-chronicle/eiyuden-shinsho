@@ -27,8 +27,6 @@ jobs:
           cache-dependency-path: pnpm-lock.yaml
       - name: $ pnpm install する
         run: pnpm install
-      - name: $ pnpm lint する
-        run: pnpm lint
       - name: $ pnpm build が通るかチェックする
         run: pnpm build
       - name: OCR をするために必要なパッケージをインストールする

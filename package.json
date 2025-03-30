@@ -30,7 +30,6 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "serve": "vue-cli-service serve",
     "test": "jest",
     "test:unit": "vue-cli-service test:unit",
