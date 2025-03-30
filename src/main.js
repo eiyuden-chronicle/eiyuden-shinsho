@@ -1,5 +1,5 @@
-import Vue from 'vue'
 import Buefy from 'buefy'
+import Vue from 'vue'
 import 'buefy/dist/buefy.css'
 import VueScrollTo from 'vue-scrollto'
 
