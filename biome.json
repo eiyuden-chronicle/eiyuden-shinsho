@@ -26,14 +26,14 @@
     ],
     "ignoreUnknown": false,
     "include": [
-      "**/*.vue",
-      "**/*.js",
-      "**/*.ts",
-      "**/*.jsx",
-      "**/*.tsx",
-      "**/*.json",
       "**/*.css",
-      "**/*.scss"
+      "**/*.js",
+      "**/*.json",
+      "**/*.jsx",
+      "**/*.scss",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.vue"
     ],
     "maxSize": 1048576
   },
@@ -103,8 +103,8 @@
         "noWith": "error"
       },
       "correctness": {
-        "noConstAssign": "error",
         "noConstantCondition": "error",
+        "noConstAssign": "error",
         "noEmptyCharacterClassInRegex": "error",
         "noEmptyPattern": "error",
         "noGlobalObjectCalls": "error",
