@@ -6,12 +6,7 @@ export function pledgeDigitalVersion() {
       japanese: 'デジタルバージョン',
     },
     rewards: {
-      english: [
-        'yourNameInTheStaffRoll',
-        'discordRole: Knight, Ranger or Wizard',
-        'digitalGame',
-        'betaAccess',
-      ],
+      english: ['yourNameInTheStaffRoll', 'discordRole: Knight, Ranger or Wizard', 'digitalGame', 'betaAccess'],
       japanese: [
         'あなたの名前がスタッフロールに',
         'Discordの称号: Knight, Ranger or Wizard',
