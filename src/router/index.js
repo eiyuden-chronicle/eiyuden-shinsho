@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home'
-import WhatIsAddOn from '../views/WhatIsAddOn'
-import StretchGoals from '../views/StretchGoals'
 import NotFound from '../views/NotFound'
 import RewardsGyakuhiki from '../views/RewardsGyakuhiki'
+import StretchGoals from '../views/StretchGoals'
+import WhatIsAddOn from '../views/WhatIsAddOn'
 
 Vue.use(VueRouter)
 
@@ -40,7 +40,7 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
-  scrollBehavior: (to, from, savedPosition) => {
+  scrollBehavior: (to, _from, savedPosition) => {
     if (savedPosition) {
       return savedPosition
     }
