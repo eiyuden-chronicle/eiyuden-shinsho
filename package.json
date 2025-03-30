@@ -27,6 +27,7 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
+    "check": "biome check .",
     "serve": "vue-cli-service serve",
     "test": "jest",
     "test:unit": "vue-cli-service test:unit",
