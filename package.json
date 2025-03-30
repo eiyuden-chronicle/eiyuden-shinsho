@@ -21,7 +21,6 @@
     "@vue/cli-service": "4.5.19",
     "@vue/test-utils": "2.4.6",
     "capture-website-cli": "^3.0.0",
-    "prettier": "2.8.8",
     "stylelint": "15.11.0",
     "stylelint-config-standard": "37.0.0",
     "textlint": "13.4.1",
