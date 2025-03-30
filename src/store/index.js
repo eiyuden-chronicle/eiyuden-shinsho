@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import createPersistedState from 'vuex-persistedstate'
 
-import rewards from '@/store/rewards'
 import pledges from '@/store/pledges'
+import rewards from '@/store/rewards'
 
 Vue.use(Vuex)
 
