@@ -43,6 +43,8 @@ jobs:
           cache-dependency-path: pnpm-lock.yaml
       - name: $ pnpm install する
         run: pnpm install
+      - name: Biome で Lint および Format をチェックする
+        run: pnpm check .
       - name: $ pnpm build が通るかチェックする
         run: pnpm build
       - name: OCR をするために必要なパッケージをインストールする
