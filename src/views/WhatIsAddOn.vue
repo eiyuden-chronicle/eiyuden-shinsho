@@ -24,13 +24,13 @@
 
 <script>
 import Header from '@/components/Header'
-import Bottom from '@/components/WhatIsAddOn/Bottom'
-import Title from '@/components/WhatIsAddOn/Title'
 import Abstract from '@/components/WhatIsAddOn/Abstract'
+import Bottom from '@/components/WhatIsAddOn/Bottom'
 import Conclusion from '@/components/WhatIsAddOn/Conclusion'
-import ListByImage from '@/components/WhatIsAddOn/ListByImage'
 import Detail from '@/components/WhatIsAddOn/Detail'
+import ListByImage from '@/components/WhatIsAddOn/ListByImage'
 import References from '@/components/WhatIsAddOn/References'
+import Title from '@/components/WhatIsAddOn/Title'
 
 export default {
   name: 'WhatIsAddOn',
