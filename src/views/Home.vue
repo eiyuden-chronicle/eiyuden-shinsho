@@ -15,15 +15,15 @@
 </template>
 
 <script>
-import Header from '@/components/Header'
-import TitleNotification from '@/components/TitleNotification'
-import Title from '@/components/Title'
 import AccessCounter from '@/components/AccessCounter'
 import Bottom from '@/components/Bottom'
-import UpdateInfo from '@/components/UpdateInfo'
-import CurrentDateTime from '@/components/CurrentDateTime'
 import CrowdFundingIsEnd from '@/components/CrowdFundingIsEnd'
+import CurrentDateTime from '@/components/CurrentDateTime'
+import Header from '@/components/Header'
 import PleaseCheckScrapbox from '@/components/PleaseCheckScrapbox'
+import Title from '@/components/Title'
+import TitleNotification from '@/components/TitleNotification'
+import UpdateInfo from '@/components/UpdateInfo'
 
 export default {
   name: 'Home',

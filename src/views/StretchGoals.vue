@@ -21,10 +21,10 @@
 
 <script>
 import Header from '@/components/Header'
-import Bottom from '@/components/StretchGoals/Bottom'
-import Title from '@/components/StretchGoals/Title'
 import Abstract from '@/components/StretchGoals/Abstract'
+import Bottom from '@/components/StretchGoals/Bottom'
 import Conclusion from '@/components/StretchGoals/Conclusion'
+import Title from '@/components/StretchGoals/Title'
 
 export default {
   name: 'StretchGoals',
