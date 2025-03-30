@@ -6,12 +6,7 @@ export function pledgeDigitalDeluxe() {
     },
     isMatchedWithUserSelection: this.$store.getters['pledges/isDigitalDeluxe'],
     rewards: {
-      english: [
-        'yourNameInTheStaffRoll',
-        'discordRole: Knight, Ranger or Wizard',
-        '2x digitalGame',
-        'betaAccess',
-      ],
+      english: ['yourNameInTheStaffRoll', 'discordRole: Knight, Ranger or Wizard', '2x digitalGame', 'betaAccess'],
       japanese: [
         'あなたの名前がスタッフロールに',
         'Discordの称号: Knight, Ranger or Wizard',
