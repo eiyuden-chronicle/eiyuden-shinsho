@@ -1,5 +1,5 @@
 function isTrueOrFalseByRadioButton(value) {
-  // Because the retrun value is via selectbox, value type isn't boolean
+  // Because the return value is via selectbox, value type isn't boolean
   if (value === 'true') return true
 
   return false
@@ -22,7 +22,7 @@ export default {
     matchedPledges: {},
   },
   getters: {
-    isDigitalVersion(state, gettesr, rootState) {
+    isDigitalVersion(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -64,7 +64,7 @@ export default {
       }
       return false
     },
-    isPhysicalVersion(state, gettesr, rootState) {
+    isPhysicalVersion(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -107,7 +107,7 @@ export default {
       return false
     },
     // digitalGame is 2-set
-    isDoubleDigitalPack(state, gettesr, rootState) {
+    isDoubleDigitalPack(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -150,7 +150,7 @@ export default {
       return false
     },
     // physicalGame is 2-set
-    isDoublePhysicalPack(state, gettesr, rootState) {
+    isDoublePhysicalPack(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -192,7 +192,7 @@ export default {
       }
       return false
     },
-    isDigitalAndPhysical(state, gettesr, rootState) {
+    isDigitalAndPhysical(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -234,7 +234,7 @@ export default {
       }
       return false
     },
-    isBadgeOfHonor(state, gettesr, rootState) {
+    isBadgeOfHonor(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -276,7 +276,7 @@ export default {
       }
       return false
     },
-    isMarkOfTheBard(state, gettesr, rootState) {
+    isMarkOfTheBard(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -318,7 +318,7 @@ export default {
       }
       return false
     },
-    isOrderOfTheVermillion(state, gettesr, rootState) {
+    isOrderOfTheVermillion(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -360,7 +360,7 @@ export default {
       }
       return false
     },
-    isOrderOfTheHarmonious(state, gettesr, rootState) {
+    isOrderOfTheHarmonious(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -402,7 +402,7 @@ export default {
       }
       return false
     },
-    isOrderOfTheArchivists(state, gettesr, rootState) {
+    isOrderOfTheArchivists(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -444,7 +444,7 @@ export default {
       }
       return false
     },
-    isTrinityOfOrders(state, gettesr, rootState) {
+    isTrinityOfOrders(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -487,7 +487,7 @@ export default {
       return false
     },
     // Squire Category
-    isVermillionSquire(state, gettesr, rootState) {
+    isVermillionSquire(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -529,7 +529,7 @@ export default {
       }
       return false
     },
-    isHarmoniousSquire(state, gettesr, rootState) {
+    isHarmoniousSquire(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -571,7 +571,7 @@ export default {
       }
       return false
     },
-    isArchivistSquire(state, gettesr, rootState) {
+    isArchivistSquire(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -613,7 +613,7 @@ export default {
       }
       return false
     },
-    isTrinitySquire(state, gettesr, rootState) {
+    isTrinitySquire(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -655,9 +655,9 @@ export default {
       }
       return false
     },
-    // Kinght Category
+    // Knight Category
     // jobRewardSet is 2-set
-    isVermillionKnight(state, gettesr, rootState) {
+    isVermillionKnight(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -700,7 +700,7 @@ export default {
       return false
     },
     // jobRewardSet is 2-set
-    isHarmoniousKnight(state, gettesr, rootState) {
+    isHarmoniousKnight(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -743,7 +743,7 @@ export default {
       return false
     },
     // jobRewardSet is 2-set
-    isArchivistKnight(state, gettesr, rootState) {
+    isArchivistKnight(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -786,7 +786,7 @@ export default {
       return false
     },
     // jobRewardSet is 2-set
-    isTrinityKnight(state, gettesr, rootState) {
+    isTrinityKnight(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -830,7 +830,7 @@ export default {
     },
     // Noble Category
     // jobRewardSet is 3-set
-    isVermillionNoble(state, gettesr, rootState) {
+    isVermillionNoble(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -873,7 +873,7 @@ export default {
       return false
     },
     // jobRewardSet is 3-set
-    isHarmoniousNoble(state, gettesr, rootState) {
+    isHarmoniousNoble(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -916,7 +916,7 @@ export default {
       return false
     },
     // jobRewardSet is 3-set
-    isArchivistNoble(state, gettesr, rootState) {
+    isArchivistNoble(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -959,7 +959,7 @@ export default {
       return false
     },
     // jobRewardSet is 3-set
-    isTrinityNoble(state, gettesr, rootState) {
+    isTrinityNoble(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1001,7 +1001,7 @@ export default {
       }
       return false
     },
-    isNameOfTheSteadfast(state, gettesr, rootState) {
+    isNameOfTheSteadfast(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1043,7 +1043,7 @@ export default {
       }
       return false
     },
-    isIndelibleHand(state, gettesr, rootState) {
+    isIndelibleHand(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1085,7 +1085,7 @@ export default {
       }
       return false
     },
-    isEnduringRequiem(state, gettesr, rootState) {
+    isEnduringRequiem(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1127,7 +1127,7 @@ export default {
       }
       return false
     },
-    isCatTribution(state, gettesr, rootState) {
+    isCatTribution(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1169,7 +1169,7 @@ export default {
       }
       return false
     },
-    isPixelPet(state, gettesr, rootState) {
+    isPixelPet(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1211,7 +1211,7 @@ export default {
       }
       return false
     },
-    isFellowWorldbuilder(state, gettesr, rootState) {
+    isFellowWorldbuilder(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1253,7 +1253,7 @@ export default {
       }
       return false
     },
-    isEvilsAnvil(state, gettesr, rootState) {
+    isEvilsAnvil(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1295,7 +1295,7 @@ export default {
       }
       return false
     },
-    isAlterEgo(state, gettesr, rootState) {
+    isAlterEgo(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1338,7 +1338,7 @@ export default {
       return false
     },
     // jobRewardSet is all-set
-    isGuildmaster(state, gettesr, rootState) {
+    isGuildmaster(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1381,7 +1381,7 @@ export default {
       return false
     },
     // jobRewardSet is all-set
-    isReveredGuildmaster(state, gettesr, rootState) {
+    isReveredGuildmaster(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1423,7 +1423,7 @@ export default {
       }
       return false
     },
-    isAllraansPantheron(state, gettesr, rootState) {
+    isAllraansPantheron(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1465,7 +1465,7 @@ export default {
       }
       return false
     },
-    isMonument(state, gettesr, rootState) {
+    isMonument(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1508,7 +1508,7 @@ export default {
       return false
     },
     // characterFigure is 2-set
-    isSilverMonument(state, gettesr, rootState) {
+    isSilverMonument(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1551,7 +1551,7 @@ export default {
       return false
     },
     // characterFigure is 3-set
-    isGoldenMonument(state, gettesr, rootState) {
+    isGoldenMonument(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1593,7 +1593,7 @@ export default {
       }
       return false
     },
-    isPieceOfHistory(state, gettesr, rootState) {
+    isPieceOfHistory(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1636,7 +1636,7 @@ export default {
       return false
     },
     // characterFigure is 2-set
-    isSilverPieceOfHistory(state, gettesr, rootState) {
+    isSilverPieceOfHistory(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1679,7 +1679,7 @@ export default {
       return false
     },
     // characterFigure is 3-set
-    isGoldenPieceOfHistory(state, gettesr, rootState) {
+    isGoldenPieceOfHistory(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1721,7 +1721,7 @@ export default {
       }
       return false
     },
-    isDigitalCopyAndDigitalCd(state, gettesr, rootState) {
+    isDigitalCopyAndDigitalCd(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1763,7 +1763,7 @@ export default {
       }
       return false
     },
-    isDigitalCopyAndDigitalArtbook(state, gettesr, rootState) {
+    isDigitalCopyAndDigitalArtbook(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1805,7 +1805,7 @@ export default {
       }
       return false
     },
-    isDigitalDeluxe(state, gettesr, rootState) {
+    isDigitalDeluxe(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1847,7 +1847,7 @@ export default {
       }
       return false
     },
-    isFoodForThought(state, gettesr, rootState) {
+    isFoodForThought(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1889,7 +1889,7 @@ export default {
       }
       return false
     },
-    isTopTrainer(state, gettesr, rootState) {
+    isTopTrainer(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1931,7 +1931,7 @@ export default {
       }
       return false
     },
-    isEsteemedDecorator(state, gettesr, rootState) {
+    isEsteemedDecorator(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -1973,7 +1973,7 @@ export default {
       }
       return false
     },
-    isHatchItJob(state, gettesr, rootState) {
+    isHatchItJob(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -2015,7 +2015,7 @@ export default {
       }
       return false
     },
-    isDigYourOwnGrave(state, gettesr, rootState) {
+    isDigYourOwnGrave(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -2057,7 +2057,7 @@ export default {
       }
       return false
     },
-    isABrushWithInfamy(state, gettesr, rootState) {
+    isABrushWithInfamy(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
@@ -2099,7 +2099,7 @@ export default {
       }
       return false
     },
-    isFishmentStory(state, gettesr, rootState) {
+    isFishmentStory(_state, _getter, rootState) {
       const rewards = rootState.rewards
 
       if (
