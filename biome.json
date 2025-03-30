@@ -1,15 +1,40 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "css": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "lineWidth": 120,
+      "quoteStyle": "double"
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "cssModules": false
+    }
+  },
   "extends": [],
   "files": {
-    "ignore": [".history", ".vscode", "dist", "node_modules"],
-    "ignoreUnknown": false
+    "ignore": [
+      ".history/**/*",
+      ".vscode/**/*",
+      "dist/**/*",
+      "node_modules/**/*"
+    ],
+    "ignoreUnknown": false,
+    "include": [],
+    "maxSize": 1048576
   },
   "formatter": {
     "attributePosition": "auto",
     "bracketSpacing": true,
     "enabled": true,
     "formatWithErrors": false,
+    "ignore": [],
+    "include": [],
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
@@ -22,15 +47,47 @@
       "attributePosition": "auto",
       "bracketSameLine": false,
       "bracketSpacing": true,
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
       "jsxQuoteStyle": "double",
+      "lineEnding": "lf",
+      "lineWidth": 120,
       "quoteProperties": "asNeeded",
       "quoteStyle": "single",
       "semicolons": "asNeeded",
       "trailingCommas": "all"
+    },
+    "globals": [],
+    "jsxRuntime": "transparent",
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": false
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "lineEnding": "lf",
+      "lineWidth": 80,
+      "trailingCommas": "none"
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "allowComments": false,
+      "allowTrailingCommas": false
     }
   },
   "linter": {
     "enabled": true,
+    "ignore": [],
+    "include": [],
     "rules": {
       "complexity": {
         "noExtraBooleanCast": "error",
@@ -95,26 +152,12 @@
       }
     }
   },
-  "json": {
-    "formatter": {
-      "enabled": true,
-      "indentStyle": "space",
-      "indentWidth": 2,
-      "lineEnding": "lf",
-      "lineWidth": 80,
-      "trailingCommas": "none"
-    },
-    "linter": {
-      "enabled": true
-    },
-    "parser": {
-      "allowComments": false,
-      "allowTrailingCommas": false
-    }
-  },
   "organizeImports": {
-    "enabled": true
+    "enabled": true,
+    "ignore": [],
+    "include": []
   },
+  "overrides": [],
   "vcs": {
     "clientKind": "git",
     "enabled": false,
