@@ -28,15 +28,15 @@
 </template>
 
 <script>
-import DigitalVersion from '@/components/WhatIsAddOn/ItemDetail/DigitalVersion'
-import SteelBook from '@/components/WhatIsAddOn/ItemDetail/SteelBook'
-import ChibiCharaFigures from '@/components/WhatIsAddOn/ItemDetail/ChibiCharaFigures'
-import Snappies from '@/components/WhatIsAddOn/ItemDetail/Snappies'
-import ClothMap from '@/components/WhatIsAddOn/ItemDetail/ClothMap'
-import PhysicalVersion from '@/components/WhatIsAddOn/ItemDetail/PhysicalVersion'
-import CollectorCards from '@/components/WhatIsAddOn/ItemDetail/CollectorCards'
 import BackerHero from '@/components/WhatIsAddOn/ItemDetail/BackerHero'
+import ChibiCharaFigures from '@/components/WhatIsAddOn/ItemDetail/ChibiCharaFigures'
+import ClothMap from '@/components/WhatIsAddOn/ItemDetail/ClothMap'
+import CollectorCards from '@/components/WhatIsAddOn/ItemDetail/CollectorCards'
 import CompanionGame from '@/components/WhatIsAddOn/ItemDetail/CompanionGame'
+import DigitalVersion from '@/components/WhatIsAddOn/ItemDetail/DigitalVersion'
+import PhysicalVersion from '@/components/WhatIsAddOn/ItemDetail/PhysicalVersion'
+import Snappies from '@/components/WhatIsAddOn/ItemDetail/Snappies'
+import SteelBook from '@/components/WhatIsAddOn/ItemDetail/SteelBook'
 
 export default {
   name: 'WhatIsAddOn',
