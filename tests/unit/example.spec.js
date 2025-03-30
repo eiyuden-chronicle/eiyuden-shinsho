@@ -1,5 +1,5 @@
-import { shallowMount } from '@vue/test-utils'
 import Header from '@/components/Header.vue'
+import { shallowMount } from '@vue/test-utils'
 
 // biome-ignore lint/correctness/noUndeclaredVariables:
 describe('Header.vue', () => {
