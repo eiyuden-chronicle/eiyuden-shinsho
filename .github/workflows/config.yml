@@ -8,12 +8,28 @@ on:
       - 'v*.*.*'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  TZ: Asia/Tokyo
+
+# $ npx @pkgdeps/update-github-actions-permissions ".github/workflows/*.{yaml,yml}"
+permissions:
+  contents: read
+
 jobs:
   eiyuden_chronicle_rewards:
     name: 百英雄伝攻略真書
     runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
-      - name: コードをチェックアウトする
+      - name: $ git clone する
         uses: actions/checkout@v4
       - name: pnpm のセットアップを行う
         uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
@@ -37,7 +53,7 @@ jobs:
       - name: capture-website-cli をインストールする
         run: |
           npm install -g capture-website-cli
-      - name: Webブラウザでの表示をチェックする（スクショ ＆ OCR結果 の取得）
+      - name: Webブラウザでの表示をチェックする（スクショ および OCR結果 の取得）
         run: |
           php -t dist/ -S localhost:8080 &
           # Webサーバ が起きるまで待つ
@@ -64,7 +80,7 @@ jobs:
 
           echo '[LOG] grep -q "ネコを登場させられる" ./output/screenshot_ocr_rewards-gyakuhiki.txt'
           grep -q "ネコを登場させられる" ./output/screenshot_ocr_rewards-gyakuhiki.txt
-      - name: capture-website-cli で撮影したスクショと OCR のテキストファイル を Artifacts に保存する
+      - name: capture-website-cli で撮影したスクショ と OCR のテキストファイル を Artifacts に保存する
         uses: actions/upload-artifact@v4
         if: always()
         with:
