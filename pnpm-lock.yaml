@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       buefy:
-        specifier: 0.9.29
-        version: 0.9.29(vue@2.7.16)
+        specifier: 3.0.1
+        version: 3.0.1(vue@2.7.16)
       core-js:
         specifier: 3.45.0
         version: 3.45.0
@@ -1616,11 +1616,10 @@ packages:
   bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
 
-  buefy@0.9.29:
-    resolution: {integrity: sha512-iJutB/ezTQcxqcKvKz129DzomMjNRGdy23lJBtoFQBG//2NveTcPkN/VRUF70z2WH3JB/5nmVeoxr8QOPcs42w==}
-    engines: {node: '>= 4.0.0', npm: '>= 3.0.0'}
+  buefy@3.0.1:
+    resolution: {integrity: sha512-pZM+YdJvAvNLLTMySuqM+DdlqzrO81149nYnkAnWctbozq11BeCsuS4sx3KOWnj03OjwrS0j3dwTzw234rlbJA==}
     peerDependencies:
-      vue: ^2.6.11
+      vue: ^3.0.0
 
   buffer-crc32@0.2.13:
     resolution: {integrity: sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==}
@@ -1646,8 +1645,8 @@ packages:
   builtin-status-codes@3.0.0:
     resolution: {integrity: sha512-HpGFw18DgFWlncDfjTa2rcQ4W88O1mC8e8yZ2AvQY5KDaktSTwo+KRf6nHK6FRI5FyRyb/5T6+TSxfP7QyGsmQ==}
 
-  bulma@0.9.4:
-    resolution: {integrity: sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==}
+  bulma@1.0.4:
+    resolution: {integrity: sha512-Ffb6YGXDiZYX3cqvSbHWqQ8+LkX6tVoTcZuVB3lm93sbAVXlO0D6QlOTMnV6g18gILpAXqkG2z9hf9z4hCjz2g==}
 
   bytes@3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
@@ -4805,7 +4804,7 @@ packages:
 
   puppeteer@19.11.1:
     resolution: {integrity: sha512-39olGaX2djYUdhaQQHDZ0T0GwEp+5f9UB9HmEP0qHfdQHIq0xGQZuAZ5TLnJIc/88SrPLpEflPC+xUqOTv3c5g==}
-    deprecated: < 22.8.2 is no longer supported
+    deprecated: < 24.9.0 is no longer supported
 
   q@1.5.1:
     resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
@@ -8403,9 +8402,9 @@ snapshots:
     dependencies:
       node-int64: 0.4.0
 
-  buefy@0.9.29(vue@2.7.16):
+  buefy@3.0.1(vue@2.7.16):
     dependencies:
-      bulma: 0.9.4
+      bulma: 1.0.4
       vue: 2.7.16
 
   buffer-crc32@0.2.13: {}
@@ -8431,7 +8430,7 @@ snapshots:
 
   builtin-status-codes@3.0.0: {}
 
-  bulma@0.9.4: {}
+  bulma@1.0.4: {}
 
   bytes@3.1.2: {}
 
