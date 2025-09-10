@@ -20,7 +20,7 @@
     "@vue/cli-plugin-vuex": "4.5.19",
     "@vue/cli-service": "4.5.19",
     "@vue/test-utils": "2.4.6",
-    "capture-website-cli": "^3.0.0",
+    "capture-website-cli": "^5.0.0",
     "vue-template-compiler": "2.7.16"
   },
   "private": true,
