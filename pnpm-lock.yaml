@@ -12,8 +12,8 @@ importers:
         specifier: 0.9.29
         version: 0.9.29(vue@2.7.16)
       core-js:
-        specifier: 3.45.1
-        version: 3.45.1
+        specifier: 3.47.0
+        version: 3.47.0
       dayjs:
         specifier: 1.11.18
         version: 1.11.18
@@ -41,7 +41,7 @@ importers:
         version: 1.9.4
       '@vue/cli-plugin-babel':
         specifier: 4.5.19
-        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.45.1)(vue@2.7.16)
+        version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.47.0)(vue@2.7.16)
       '@vue/cli-plugin-router':
         specifier: 4.5.19
         version: 4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16))
@@ -2143,8 +2143,8 @@ packages:
     resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
     deprecated: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
 
-  core-js@3.45.1:
-    resolution: {integrity: sha512-L4NPsJlCfZsPeXukyzHFlg/i7IIVwHSItR0wg0FLNqYClJ4MQYTYLbC7EkjKYRLZF2iof2MUgN0EGy7MdQFChg==}
+  core-js@3.47.0:
+    resolution: {integrity: sha512-c3Q2VVkGAUyupsjRnaNX6u8Dq2vAdzm9iuPj5FW0fRxzlxgq9Q39MDq10IvmQSpLgHQNyQzQmOo6bgGHmH3NNg==}
 
   core-util-is@1.0.2:
     resolution: {integrity: sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==}
@@ -7358,7 +7358,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/babel-preset-app@4.5.19(@babel/core@7.26.10)(core-js@3.45.1)(vue@2.7.16)':
+  '@vue/babel-preset-app@4.5.19(@babel/core@7.26.10)(core-js@3.47.0)(vue@2.7.16)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/helper-compilation-targets': 7.27.0
@@ -7376,7 +7376,7 @@ snapshots:
       core-js-compat: 3.41.0
       semver: 6.3.1
     optionalDependencies:
-      core-js: 3.45.1
+      core-js: 3.47.0
       vue: 2.7.16
     transitivePeerDependencies:
       - supports-color
@@ -7440,10 +7440,10 @@ snapshots:
 
   '@vue/cli-overlay@4.5.19': {}
 
-  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.45.1)(vue@2.7.16)':
+  '@vue/cli-plugin-babel@4.5.19(@vue/cli-service@4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16))(core-js@3.47.0)(vue@2.7.16)':
     dependencies:
       '@babel/core': 7.26.10
-      '@vue/babel-preset-app': 4.5.19(@babel/core@7.26.10)(core-js@3.45.1)(vue@2.7.16)
+      '@vue/babel-preset-app': 4.5.19(@babel/core@7.26.10)(core-js@3.47.0)(vue@2.7.16)
       '@vue/cli-service': 4.5.19(@vue/compiler-sfc@3.5.13)(babel-core@7.0.0-bridge.0(@babel/core@7.26.10))(lodash@4.17.21)(typescript@5.8.2)(vue-template-compiler@2.7.16)(vue@2.7.16)
       '@vue/cli-shared-utils': 4.5.19
       babel-loader: 8.4.1(@babel/core@7.26.10)(webpack@4.47.0)
@@ -8831,7 +8831,7 @@ snapshots:
 
   core-js@2.6.12: {}
 
-  core-js@3.45.1: {}
+  core-js@3.47.0: {}
 
   core-util-is@1.0.2: {}
 
@@ -10650,7 +10650,9 @@ snapshots:
       pretty-format: 24.9.0
       throat: 4.1.0
     transitivePeerDependencies:
+      - bufferutil
       - supports-color
+      - utf-8-validate
 
   jest-leak-detector@24.9.0:
     dependencies:
